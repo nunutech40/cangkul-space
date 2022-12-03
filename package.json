@@ -4,7 +4,8 @@
   "description": "# Repo ini saya pakai untuk belajar Front END, kususnya HTML, CSS dan Javascript # Repo ini juga langsung saya deploy menggunakan Vercel, berikut link nya: https://cangkul-space.vercel.app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
     "ejs": "^3.1.8",
     "express": "^4.18.2",
     "ytdl-core": "^4.11.2"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
